@@ -1,0 +1,20 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/ApexieDevelopment/Knock
+build-by-default: true
+branches:
+- stable
+projects:
+  KnockbackFFA:
+    path: ""
+    icon: "assets/icon.png"
+    lint:
+      phpstan: false
+    libs:
+    - src: "CortexPE/Commando/Commando"
+      branch: "master"
+      version: ^3.2.0
+    - src: "jojoe77777/FormAPI/libFormAPI"
+      version: ^2.1.1
+    - src: "ifera-mc/UpdateNotifier/UpdateNotifier"
+      branch: "master"
+      version: ^3.0.0
+...

@@ -1,0 +1,11 @@
+name: KnockbackFFA
+main: ItzLightyHD\KnockbackFFA\Loader
+api: 5.6.0
+version: 1.7.0
+authors:
+  - MBG
+permissions:
+  knockbackffa.customize:
+    default: op
+  knockbackffa.player:
+    default: true

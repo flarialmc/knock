@@ -1,0 +1,33 @@
+# First, let's get the world which will be used for the minigame
+arena: "kbffa1"
+
+# How many blocks of radius should the player get protected from spawn?
+protection-radius: 5
+
+# Should the other players see the kills from the scoretag?
+# The scoretag format can use these placeholders:
+# {kills} -> Numer of kills of the player
+kills-scoretag: true
+scoretag-format: "§6{kills} §rkills"
+
+# Where should the player get teleported when he leaves the game?
+lobby-world: "world"
+
+# Change how the behaviour of the game is by changing some values here
+# If you want to have the recommended experience, leave these as default
+# If some values will return as 0, they'll be disabled
+# You can change these values in-game by typing `/kbffa settings` only
+# if you have the 'knockbackffa.customize' permission. After the server
+# restart, the values will be the same as below.
+massive-knockback: true # The game will have a slightly modified knockback
+bow: true # The game will also include bows
+snowballs: true # The game will also include snowballs
+leap: true # The game will also include a leap
+double-jump: false # The game will also include a double-jump (DISABLED BY DEFAULT: still has a weird behaviour but it works)
+enchant-level: 2 # Players will have a stick with the desired knockback level
+knockback-level: 3 # Players will have a bow with the desired power level
+speed-level: 2 # Players will have the speed effect with the desired level
+jump-boost-level: 2 # Players will have the jump boost effect with the desired level
+
+# Which prefix do you want to use for the messages?
+prefix: "§dKnock §r§7§l| §r"
